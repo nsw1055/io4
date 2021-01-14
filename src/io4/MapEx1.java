@@ -7,28 +7,28 @@ public class MapEx1 {
 
 	//bad code
 	public static void main(String[] args)throws Exception {
-		//  <Å°    , °ª    >    ÀúÀå¹æ¹ı : HashMap, TreeMap
+		//  <í‚¤   ,  ê°’    >  = ì €ì¥ë°©ì‹ : HashMap, TreeMap
 		Map<String, Job> map = new HashMap<>();
 		
-		//map.put´Â µ¥ÀÌÅÍ¸¦ ÀÔ·Â
+		//map.putì€ ì…ë ¥í•œë‹¤
 		map.put("A", new AJob());
-		//mapÀº Å°°¡ °°À¸¸é µ¤¾î¾´´Ù.
+		//map.putì˜ í‚¤ê°’ì´ ê°™ìœ¼ë©´ ë®ì–´ ì”Œìš´ë‹¤
 		map.put("A", new AJob());
 		map.put("B", new BJob());
 		
-		//map.get´Â µ¥ÀÌÅÍ¸¦ Ãâ·Â
+		//map.get ì¶œë ¥í•œë‹¤.
 		Job target = map.get("A");
 		target.doJob();
 		
 		
 //		System.out.println(map);
 //		
-//		//Å°¸¦ ³ªÅ¸³¿ ÁıÇÕÇü½Ä Áßº¹Àº Çã¿ëµÇÁö ¾Ê´Â´Ù.
-//		//map.keySet().forEach(ÄÚµå¸¦ Áı¾î ³Ö´Â´Ù);
+//		//mapì•ˆì˜ í‚¤ë¥¼ ê°€ì ¸ì˜¨ë‹¤.
+//		//map.keySet().forEach(ì½”ë“œì‘ì„±);
 //		map.keySet().forEach(key -> System.out.println(key));
 //		
-//		//°ªÀ» ³ªÅ¸³¿ ÁıÇÕÇü½Ä Áßº¹Àº Çã¿ëµÇÁö ¾Ê´Â´Ù.
-//		//map.values().forEach(ÄÚµå¸¦ Áı¾î ³Ö´Â´Ù);
+//		//mapì•ˆì˜ ê°’ì„ ê°€ì ¸ì˜¨ë‹¤
+//		//map.values().forEach(ì½”ë“œì‘ì„±);
 //		map.values().forEach(value -> System.out.println(value));
 //		
 //		if(map.get("2") == null){

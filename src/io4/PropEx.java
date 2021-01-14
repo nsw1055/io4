@@ -8,7 +8,7 @@ public class PropEx {
 	// bad code
 	public static void main(String[] args) throws Exception {
 
-		// {Å° = °ª , Å° = °ª}
+		// {í‚¤ = ê°’, í‚¤ = ê°’}
 		Properties prop = new Properties();
 		prop.load(new FileInputStream("C:\\zzz\\job.properties"));
 		System.out.println(prop);

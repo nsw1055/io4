@@ -4,11 +4,11 @@ public class Ex1 {
 
 	public static void main(String[] args)throws Exception {
 		
-		//µ¿ÀûÄÚµù
-		//ÀÌ ¹®ÀÚ¿­¸¸ ¹Ù²Ù¸é Å¬·¡½º º¯°æ °¡´É
-		//if-else »ç¿ëÇÏÁö ¾Ê¾Æµµ µÈ´Ù.
+		//ë¦¬í”Œë ‰ì…˜
+		//ì„ì˜ì˜ í´ë˜ìŠ¤ë¥¼ ê°€ì ¸ì˜¨ë‹¤.
+		//if-else ì‚¬ìš©í•˜ì§€ ì•ŠëŠ”ë‹¤.
 		String name="io4.AJob";
-		
+		//ë“œë¼ì´ë²„ ë¡œë“œ
 		Class clz = Class.forName(name);
 		
 		System.out.println(clz);
